@@ -2,6 +2,8 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "",
@@ -21,5 +23,8 @@
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
-  }
+  },
+  "browserslist": [
+    "last 10 versions"
+  ]
 }
